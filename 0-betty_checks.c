@@ -11,7 +11,6 @@
  */
 int main(int __attribute((unused)) argc, char **argv, char **envp)
 {
-
 	argv[0] = "/usr/local/bin/betty";
 
 	if (execve(argv[0], argv, envp) == -1)
